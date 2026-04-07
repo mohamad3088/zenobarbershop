@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:barbershopbestbarbers.nl)",
+      "Bash(npx skills:*)",
+      "Bash(claude mcp:*)",
+      "Bash(where claude:*)",
+      "Read(//c/Users/Hussam Maiasa/Desktop/barber/Local/Programs/**)",
+      "Read(//c/Users/Hussam Maiasa/Desktop/barber/$HOME/AppData/Local/**)",
+      "Bash(npx @anthropic-ai/claude-code mcp add --help)",
+      "Bash(npx @anthropic-ai/claude-code mcp add magic --scope user --env API_KEY=\"0cc2e22bf1f377f4537a38a317322a1d4a416f7c9b7ca02a0fc338037f502300\" -- npx -y @21st-dev/magic@latest)",
+      "Bash(ls \"C:\\\\Users\\\\Hussam Maiasa\\\\Desktop\\\\barber\\\\.claude\"\" 2>/dev/null || echo \"no .claude dir \")",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:kapsalonzeno.my.canva.site)",
+      "WebSearch"
+    ]
+  }
+}
